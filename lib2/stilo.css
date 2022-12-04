@@ -283,7 +283,7 @@ html{
 
 /* seccion skils*/
 .contenedor-skills{
-	background: linear-gradient(#7a0000cc, rgba(33,16,16,.8)), url(img/desarrollo.png);
+	background: linear-gradient(#7a0000cc, rgba(33,16,16,.8)), url(Img/desarrollo.png);
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: cover;
