@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initail-scale=1.0, user-scalable=no">
+	<title>LP Desarrollo</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" type="text/css" href="lib2/stilo.css">
+</head>
+<body>
+    <!-- Seccion Inicio -->
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1>Portafolio Personal</h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="#sobremi" onclick="seleccionar(this)">SOBRE MI</a></li>
+                            <li><a href="#servicios" onclick="seleccionar(this)">FORMACION ACADEMICA</a></li>
+                            <li><a href="#portafolio" onclick="seleccionar(this)">PORTAFOLIO</a></li>
+                        </ul>
+                    </nav>
+
+                    <!-- iconos del menu responsive-->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+
+                    <!-- iconos de las redes sociales-->
+                    <div class="redes">
+                        <a href="https://www.linkedin.com/in/sleiter-gonzalez-082813219" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/EndersonRuiz" target="_blank"><i class="fa-brands fa-square-github"></i></a>
+                        <a href="mailto:enderson12ruiz@gmail.com"><i class="fa-sharp fa-solid fa-envelope"></i></a>
+                    </div>
+                </div>
+            </header>
+            <div class="presentacion">
+                <p class="bienvenida">Bienvenidos</p>
+                <h2>Soy <span>Reginaldo Enderson Sleiter González Ruiz</span>, Desrrollador .NET (C#)</h2>
+                <p class="descripcion">
+                    Contactame (46102449).
+                </p>
+                <a href="#portafolio">Ir a Portafolio</a>
+            </div>
+        </div>
+    </section>
+
+    <!--Seccion sobre mi -->
+    <section id="sobremi">
+        <div class="contenedor-foto">
+            <img src="lib2/Img/sleiter.png">
+        </div>
+        <div class="sobremi">
+            <p class="titulo-seccion">Sobre Mi</p>
+            <h2>Hola, Soy <span>Reginaldo Enderson Sleiter González Ruiz</span></h2>
+            <h3>Desarrollador de aplicaciones Web y Escritorio</h3>
+            <p>
+                Soy un profesional con habilidades en tecnología comprometido al desarrollo y análisis de software
+                especializado en aplicaciones tanto de Escritorio como Web, en el lenguaje  de programación
+                .Net con C# y Visual Basic, comprometido con la orientación a los objetivos de la empresa
+                en busca de soluciones a cualquier problema. Soy un gran trabajador en equipo capaz de aprender
+                y aplicar rápidamente las nuevas tecnologías, me proyecto como un desarrollador Junior full-stack.
+            </p>
+            <h3>Ponte en contacto con mi persona.</h3>
+            <h4><i class="fa-solid fa-mobile"></i> 4 6 1 0 2 4 4 9</h4>
+            <a href="https://drive.google.com/drive/folders/17iT3LvWlXeI1s60IHdfa7ao1ubs0Dkmj?usp=sharing" target="_blank">Descargar CV</a>
+            <!-- iconos de las redes sociales-->
+            <div class="redes1">
+                <a href="https://www.linkedin.com/in/sleiter-gonzalez-082813219" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/EndersonRuiz" target="_blank"><i class="fa-brands fa-square-github"></i></a>
+                <a href="mailto:enderson12ruiz@gmail.com"><i class="fa-sharp fa-solid fa-envelope"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seccion Servicios-->
+    <section id="servicios">
+        <h3 class="titulo-seccion">FORMACION ACADEMICA</h3>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-code"></i></span>
+                <h4>Cierre de Pensum</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li></li>
+                    <li><a href="https://drive.google.com/file/d/1N1Vgvc8rCe8AAqecm57VQTImy_y1lvgp/view?usp=share_link" target="_blank"><i class="fa-solid fa-download"></i></a></li>
+                    <li></li>
+                </ul>
+                <p>
+                    Cierre de pensum de Ingeniería en Sistemas de la Información
+                    y ciencias de la Computación, Cursado en la
+                    Universidad Mariano Gálvez de Guatemala.
+                </p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-code"></i></span>
+                <h4>Maestro de Educación Primaria</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li></li>
+                    <li><a href="https://drive.google.com/file/d/1YMS1sFtFZSEkQ0SwLpKmI1IOra_XF_NR/view?usp=share_link" target="_blank"><i class="fa-solid fa-download"></i></a></li>
+                    <li></li>
+                </ul>
+                <p>
+                    Maestro de Educación Primaria,
+                    Cursado en el Instituto de
+                    Educación diversificado IMPRIMISI. Sibilia, Quetzaltenango.
+                </p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-code"></i></span>
+                <h4>Ciclo de Educación Básico</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li></li>
+                    <li><a href="https://drive.google.com/file/d/1Ywb7HB9poYLyvngr6mbxzxFQMVaI3Onj/view?usp=share_link" target="_blank"><i class="fa-solid fa-download"></i></a></li>
+                    <li></li>
+                </ul>
+                <p>
+                    Ciclo de Educación Básica de Nivel Medio, cursado en el Instituto Nacional
+                    de Educación Básica, Sibilia, Quetzaltenango.
+                </p>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-code"></i></span>
+                <h4>Curso de Programación .Net</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li></li>
+                    <li><a href="https://drive.google.com/file/d/1Mih4rtr0MPna1gX0BpGEW4qNxv2RkSYE/view?usp=share_link" target="_blank"><i class="fa-solid fa-download"></i></a></li>
+                    <li></li>
+                </ul>
+                <p>
+                    Curso de programación .Net/ .Net Core/ .Net 5 vasado en c#.
+                    Impartido por Instructor Alberto Picazo, Udemy Academy.
+                </p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-code"></i></span>
+                <h4>Técnico de Redes IP</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li></li>
+                    <li><a href="https://drive.google.com/file/d/1eNRg2LtfTUfM7MbPIkdD6wujQv0Q0PNl/view?usp=share_link" target="_blank"><i class="fa-solid fa-download"></i></a></li>
+                    <li></li>
+                </ul>
+                <p>
+                    Técnico de Redes IP. Fundación Carlos Slim.
+                </p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-code"></i></span>
+                <h4>SIMCOIN 18</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li></li>
+                    <li><a href="https://drive.google.com/file/d/17Dc2MkuRjTBRXzDrx-hILAFLnsMQtfT9/view?usp=share_link" target="_blank"><i class="fa-solid fa-download"></i></a></li>
+                    <li></li>
+                </ul>
+                <p>
+                    Diploma de participación en congreso de tecnología “SIMCOIN 18”. Impartido por la universidad Mariano Gálvez de Guatemala
+                </p>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-code"></i></span>
+                <h4>SIUM 17</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li></li>
+                    <li><a href="https://drive.google.com/file/d/1t3BzmrMCcn4K67goJC3S8EK5sbvQBeDL/view?usp=share_link" target="_blank"><i class="fa-solid fa-download"></i></a></li>
+                    <li></li>
+                </ul>
+                <p>
+                    Diploma de participación en congreso de tecnología “SIUMG 17”. Impartido por la universidad Mariano Gálvez de Guatemala.
+                </p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-code"></i></span>
+                <h4>SIM16</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li></li>
+                    <li><a href="https://drive.google.com/file/d/1Hm5VCYsKCzYYmL-xlq40-tOgckLnCF_K/view?usp=share_link" target="_blank"><i class="fa-solid fa-download"></i></a></li>
+                    <li></li>
+                </ul>
+                <p>
+                    Diploma de participación en congreso de tecnología “SIM16”. Impartido por la universidad Mariano Gálvez de Guatemala.
+                </p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-code"></i></span>
+                <h4>Líderes de Mañana</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li></li>
+                    <li><a href="https://drive.google.com/file/d/1rcIsiqwbF5r7Kc-Pn6NEQXb4v05j6BWt/view?usp=share_link" target="_blank"><i class="fa-solid fa-download"></i></a></li>
+                    <li></li>
+                </ul>
+                <p>
+                    Líderes de Mañana. Cuerpo de Paz Guatemala y Aseaco.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seccion Habilidades-->
+    <div class="contenedor-skills" id="skills">
+        <h3 style="color: white">HABILIDADES</h3>
+        <div class="skills">
+            <div class="info">
+                <p><span class="lista"></span>HTML & Css & Bootstrap</p>
+                <span class="porcentaje">65%</span>
+            </div>
+            <div class="barra">
+                <div id="html" class="barra-progreso1"></div>
+            </div>
+        </div>
+        <div class="skills">
+            <div class="info">
+                <p><span class="lista"></span>.Net & Php & JavasScrip</p>
+                <span class="porcentaje">85%</span>
+            </div>
+            <div class="barra">
+                <div id="js" class="barra-progreso2"></div>
+            </div>
+        </div>
+        <div class="skills">
+            <div class="info">
+                <p><span class="lista"></span>Base de Datos SQL</p>
+                <span class="porcentaje">90%</span>
+            </div>
+            <div class="barra">
+                <div id="bd" class="barra-progreso3"></div>
+            </div>
+        </div>
+        <div class="skills">
+            <div class="info">
+                <p><span class="lista"></span>Reporting Services & PowerBI</p>
+                <span class="porcentaje">63%</span>
+            </div>
+            <div class="barra">
+                <div id="php1" class="barra-progreso4"></div>
+            </div>
+        </div>
+    </div>
+
+    <!--Seccion portafolio-->
+    <section id="portafolio">
+        <h3 class="titulo-seccion">MIS PROYECTOS</h3>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="lib2/img/Sanrafael.png" alt="">
+                <div class="info">
+                    <h4>Pagina Web</h4>
+                    <p>Analista Programador y Administrador de base de datos en Farmacias San Rafael, Quetzaltenango. 2,019 – 2022. </p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="lib2/img/accescel.png" alt="">
+                <div class="info">
+                    <h4>Aplicacion .Net framework Desktop</h4>
+                    <p>
+                        Este proyecto esta en fase de desarrollo para una pequeña empresa de
+                        Celulares "Acces Cell". Donde se esta desarrollando los modulos de Ventas,
+                        Compras, Reparaciones entre otras funcionalidades. Dicha aplicacion esta siendo
+                        desarrollado con .Net Framework con (c#). y base de datos SQL Server.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="sobremi">
+                <p class="titulo-seccion">Experiencia Laboaral</p>
+                <h2>Analista Programador y administrador de base de datos en Farmacias San Rafael, Quetzaltenango. (2,019 – 2,022).</h2>
+                <h3>Funciones:</h3>
+                <p>
+                    1)	 Análisis, levantado de requerimientos, desarrollo y pruebas de Modulos del
+                    sistema para Farmacias San Rafael, contando con los siguientes módulos: área de clientes, 
+                    inventarios, sucursales, compras, punto de venta, caja, empleados y reportes para la toma de decisiones,
+                    utilizando las siguientes tecnologías: PHP, MYSQL, JAVASCRIP, HTML, CSS, BOOTSTRAP, POWER BI y Hostinger.es.
+                </p>
+                 <p>
+                    2)	Soporte técnico al sitio web.
+                </p>
+                 <p>
+                    3)	Darle Mantenimiento a la base de datos.
+                </p>
+                 <p>
+                    4)	Verificar y realizar informes del correcto ingreso de datos y funcionamiento del sistema.
+                </p>
+                 <p>
+                    5)	Gestionar los reportes de ventas para la toma de decisiones.
+                </p>
+                 <p>
+                    6)	Encargado de verificar la correcta facturación de FEL.
+                </p>
+                 <p>
+                    7)	Verificar y realizar análisis de precios para un buen control de compras.
+                </p>
+                <div class="redes1">
+                    <a href="https://drive.google.com/file/d/1gVnBVG1cZaprShyyR2vntB65IcCMjfI9/view?usp=share_link" target="_blank">Carta Laboral: <i class="fa-solid fa-envelopes-bulk"></i></a>
+                    <a href="https://www.farmaciasanrafael.store/" target="_blank">WEB: <i class="fa-solid fa-prescription-bottle-medical"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Seccion footer-->
+    <footer>
+        <p></p>
+        <div class="redes">
+            &copy; 2022 - Reginaldo Enderson Sleiter González Ruiz -
+            <a href="https://www.linkedin.com/in/sleiter-gonzalez-082813219" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/EndersonRuiz" target="_blank"><i class="fa-brands fa-square-github" target="_blank"></i></a>
+            <a href="mailto:enderson12ruiz@gmail.com"><i class="fa-sharp fa-solid fa-envelope"></i></a>
+        </div>
+    </footer>
+    <script src="lib2/script.js"></script>
+</body>
+</html>
